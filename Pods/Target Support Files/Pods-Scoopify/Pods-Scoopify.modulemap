@@ -1,0 +1,6 @@
+framework module Pods_Scoopify {
+  umbrella header "Pods-Scoopify-umbrella.h"
+
+  export *
+  module * { export * }
+}

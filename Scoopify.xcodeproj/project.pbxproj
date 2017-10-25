@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65D916D43B041A76920B3C8B /* Pods_ScoopifyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95735AF03DCE3BF15191E8B /* Pods_ScoopifyUITests.framework */; };
+		6B59C750BDFBF6F0C5FC73BA /* Pods_ScoopifyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4B7B0D25C651F86C4D4F8C /* Pods_ScoopifyTests.framework */; };
+		7DA1CEAC360E001D2386360F /* Pods_Scoopify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E59F8D4C5EBBC3412F69FA55 /* Pods_Scoopify.framework */; };
 		8E51E2E11FA0499400447D36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E51E2E01FA0499400447D36 /* AppDelegate.swift */; };
 		8E51E2E31FA0499400447D36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E51E2E21FA0499400447D36 /* ViewController.swift */; };
 		8E51E2E61FA0499400447D36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E51E2E41FA0499400447D36 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		8E51E2EB1FA0499400447D36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E51E2E91FA0499400447D36 /* LaunchScreen.storyboard */; };
 		8E51E2F61FA0499400447D36 /* ScoopifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E51E2F51FA0499400447D36 /* ScoopifyTests.swift */; };
 		8E51E3011FA0499400447D36 /* ScoopifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E51E3001FA0499400447D36 /* ScoopifyUITests.swift */; };
+		8E51E30F1FA04A7200447D36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E51E30E1FA04A7200447D36 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5664EFAD77FA8C8AA6F29FED /* Pods-ScoopifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScoopifyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScoopifyTests/Pods-ScoopifyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D6219674EB8142D7946D14A /* Pods-ScoopifyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScoopifyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScoopifyUITests/Pods-ScoopifyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8E51E2DD1FA0499400447D36 /* Scoopify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scoopify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E51E2E01FA0499400447D36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E51E2E21FA0499400447D36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,14 @@
 		8E51E2FC1FA0499400447D36 /* ScoopifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoopifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E51E3001FA0499400447D36 /* ScoopifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoopifyUITests.swift; sourceTree = "<group>"; };
 		8E51E3021FA0499400447D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E51E30E1FA04A7200447D36 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		99F73484C813488F2AE791D6 /* Pods-Scoopify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scoopify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scoopify/Pods-Scoopify.debug.xcconfig"; sourceTree = "<group>"; };
+		9B4B7B0D25C651F86C4D4F8C /* Pods_ScoopifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScoopifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5ADC9D39DE68826F18C3655 /* Pods-ScoopifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScoopifyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScoopifyTests/Pods-ScoopifyTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4836D7D700FB421363D9C92 /* Pods-ScoopifyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScoopifyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScoopifyUITests/Pods-ScoopifyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C95735AF03DCE3BF15191E8B /* Pods_ScoopifyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScoopifyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10D242EEB7E5D4E23A8EB59 /* Pods-Scoopify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scoopify.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scoopify/Pods-Scoopify.release.xcconfig"; sourceTree = "<group>"; };
+		E59F8D4C5EBBC3412F69FA55 /* Pods_Scoopify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scoopify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DA1CEAC360E001D2386360F /* Pods_Scoopify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B59C750BDFBF6F0C5FC73BA /* Pods_ScoopifyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D916D43B041A76920B3C8B /* Pods_ScoopifyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D87325019A83309CEC2A545 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E59F8D4C5EBBC3412F69FA55 /* Pods_Scoopify.framework */,
+				9B4B7B0D25C651F86C4D4F8C /* Pods_ScoopifyTests.framework */,
+				C95735AF03DCE3BF15191E8B /* Pods_ScoopifyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8E51E2D41FA0499400447D36 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				8E51E2F41FA0499400447D36 /* ScoopifyTests */,
 				8E51E2FF1FA0499400447D36 /* ScoopifyUITests */,
 				8E51E2DE1FA0499400447D36 /* Products */,
+				E0C15E7C6B7674FBF1DCF0B5 /* Pods */,
+				3D87325019A83309CEC2A545 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +132,7 @@
 				8E51E2E71FA0499400447D36 /* Assets.xcassets */,
 				8E51E2E91FA0499400447D36 /* LaunchScreen.storyboard */,
 				8E51E2EC1FA0499400447D36 /* Info.plist */,
+				8E51E30E1FA04A7200447D36 /* GoogleService-Info.plist */,
 			);
 			path = Scoopify;
 			sourceTree = "<group>";
@@ -125,6 +155,19 @@
 			path = ScoopifyUITests;
 			sourceTree = "<group>";
 		};
+		E0C15E7C6B7674FBF1DCF0B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99F73484C813488F2AE791D6 /* Pods-Scoopify.debug.xcconfig */,
+				E10D242EEB7E5D4E23A8EB59 /* Pods-Scoopify.release.xcconfig */,
+				5664EFAD77FA8C8AA6F29FED /* Pods-ScoopifyTests.debug.xcconfig */,
+				A5ADC9D39DE68826F18C3655 /* Pods-ScoopifyTests.release.xcconfig */,
+				7D6219674EB8142D7946D14A /* Pods-ScoopifyUITests.debug.xcconfig */,
+				B4836D7D700FB421363D9C92 /* Pods-ScoopifyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E51E3051FA0499400447D36 /* Build configuration list for PBXNativeTarget "Scoopify" */;
 			buildPhases = (
+				95099452F95F72747A4A4FA5 /* [CP] Check Pods Manifest.lock */,
 				8E51E2D91FA0499400447D36 /* Sources */,
 				8E51E2DA1FA0499400447D36 /* Frameworks */,
 				8E51E2DB1FA0499400447D36 /* Resources */,
+				EC6EA148E1F936A7A9C404FA /* [CP] Embed Pods Frameworks */,
+				31CDC212C1A522CD6DAC3F5B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E51E3081FA0499400447D36 /* Build configuration list for PBXNativeTarget "ScoopifyTests" */;
 			buildPhases = (
+				CD9AC4F7756FE0126AC857D4 /* [CP] Check Pods Manifest.lock */,
 				8E51E2ED1FA0499400447D36 /* Sources */,
 				8E51E2EE1FA0499400447D36 /* Frameworks */,
 				8E51E2EF1FA0499400447D36 /* Resources */,
+				5129442B6D29D0A5B3792035 /* [CP] Embed Pods Frameworks */,
+				8397D5934B7E11413DB3E447 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E51E30B1FA0499400447D36 /* Build configuration list for PBXNativeTarget "ScoopifyUITests" */;
 			buildPhases = (
+				8F817F7063920E4452695E27 /* [CP] Check Pods Manifest.lock */,
 				8E51E2F81FA0499400447D36 /* Sources */,
 				8E51E2F91FA0499400447D36 /* Frameworks */,
 				8E51E2FA1FA0499400447D36 /* Resources */,
+				B4653AF38F7723A5E4FB631B /* [CP] Embed Pods Frameworks */,
+				A4ECA98658A3A7DAE9C1B2EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +286,7 @@
 			files = (
 				8E51E2EB1FA0499400447D36 /* LaunchScreen.storyboard in Resources */,
 				8E51E2E81FA0499400447D36 /* Assets.xcassets in Resources */,
+				8E51E30F1FA04A7200447D36 /* GoogleService-Info.plist in Resources */,
 				8E51E2E61FA0499400447D36 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +306,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31CDC212C1A522CD6DAC3F5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scoopify/Pods-Scoopify-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5129442B6D29D0A5B3792035 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScoopifyTests/Pods-ScoopifyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8397D5934B7E11413DB3E447 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScoopifyTests/Pods-ScoopifyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F817F7063920E4452695E27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95099452F95F72747A4A4FA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4ECA98658A3A7DAE9C1B2EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScoopifyUITests/Pods-ScoopifyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4653AF38F7723A5E4FB631B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScoopifyUITests/Pods-ScoopifyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD9AC4F7756FE0126AC857D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC6EA148E1F936A7A9C404FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scoopify/Pods-Scoopify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8E51E2D91FA0499400447D36 /* Sources */ = {
@@ -424,13 +615,14 @@
 		};
 		8E51E3061FA0499400447D36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F73484C813488F2AE791D6 /* Pods-Scoopify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J9G5UX4JHG;
 				INFOPLIST_FILE = Scoopify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.arthur.k.zhang.Scoopify;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arthur.K.Zhang.Scoopify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -439,13 +631,14 @@
 		};
 		8E51E3071FA0499400447D36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10D242EEB7E5D4E23A8EB59 /* Pods-Scoopify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J9G5UX4JHG;
 				INFOPLIST_FILE = Scoopify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.arthur.k.zhang.Scoopify;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arthur.K.Zhang.Scoopify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,6 +647,7 @@
 		};
 		8E51E3091FA0499400447D36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5664EFAD77FA8C8AA6F29FED /* Pods-ScoopifyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +665,7 @@
 		};
 		8E51E30A1FA0499400447D36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5ADC9D39DE68826F18C3655 /* Pods-ScoopifyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +683,7 @@
 		};
 		8E51E30C1FA0499400447D36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D6219674EB8142D7946D14A /* Pods-ScoopifyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +700,7 @@
 		};
 		8E51E30D1FA0499400447D36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4836D7D700FB421363D9C92 /* Pods-ScoopifyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
