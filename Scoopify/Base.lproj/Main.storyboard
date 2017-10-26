@@ -18,60 +18,39 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--LoginVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Scoopify" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="LoginVC" customClass="ViewController" customModule="Scoopify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Welcome to Scoopify!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tiQ-DT-WVE">
-                                <rect key="frame" x="36" y="238" width="304" height="28"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DollarLogo" translatesAutoresizingMaskIntoConstraints="NO" id="H2Y-dG-6NI" userLabel="Logo">
+                                <rect key="frame" x="125" y="89" width="125" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="Zj6-Uo-6OI"/>
+                                    <constraint firstAttribute="height" constant="125" id="gw0-bo-V2B"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Scoopify!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tiQ-DT-WVE">
+                                <rect key="frame" x="36" y="234" width="304" height="35"/>
                                 <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="30"/>
                                 <color key="textColor" red="0.96775790530000005" green="1" blue="0.99703319810000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="DollarLogo" translatesAutoresizingMaskIntoConstraints="NO" id="H2Y-dG-6NI" userLabel="Logo">
-                                <rect key="frame" x="125" y="89" width="125" height="125"/>
-                            </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" distribution="fillEqually" alignment="center" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="oQ6-9v-ZN0">
-                                <rect key="frame" x="0.0" y="313" width="375" height="218"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="oQ6-9v-ZN0">
+                                <rect key="frame" x="0.0" y="313" width="375" height="110"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="center" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username or Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8np-iQ-prP">
-                                        <rect key="frame" x="62.5" y="0.0" width="250" height="38"/>
-                                        <color key="backgroundColor" red="0.96775790530000005" green="1" blue="0.99703319810000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="250" id="gzh-F6-SKw"/>
-                                        </constraints>
-                                        <color key="textColor" red="0.74901960779999999" green="0.75294117650000003" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="19"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="center" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c43-Mk-W1i">
-                                        <rect key="frame" x="62.5" y="60" width="250" height="38"/>
-                                        <color key="backgroundColor" red="0.96775790530000005" green="1" blue="0.99703319810000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="250" id="Xiw-5n-Ivc"/>
-                                        </constraints>
-                                        <color key="textColor" red="0.74901960779999999" green="0.75294117650000003" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="19"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxe-N8-t9G">
-                                        <rect key="frame" x="152.5" y="120" width="70" height="38"/>
-                                        <color key="backgroundColor" red="0.96775790530000005" green="1" blue="0.99703319810000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="70" id="JJg-Ma-rND"/>
-                                        </constraints>
-                                        <state key="normal" title="Login">
-                                            <color key="titleColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                    </button>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ico-5E-Mfx" customClass="GIDSignInButton">
+                                        <rect key="frame" x="67.5" y="0.0" width="240" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="signInBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="8q7-fz-qpb"/>
+                                        </connections>
+                                    </view>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cGE-8z-PNh">
-                                        <rect key="frame" x="103" y="180" width="169" height="38"/>
+                                        <rect key="frame" x="103" y="72" width="169" height="38"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                         <state key="normal" title="Create an Account">
                                             <color key="titleColor" red="0.96775790530000005" green="1" blue="0.99703319810000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -87,22 +66,30 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="oQ6-9v-ZN0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-278" id="Kwa-bJ-aAf"/>
+                            <constraint firstItem="H2Y-dG-6NI" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Ac3-0b-aLR"/>
+                            <constraint firstItem="tiQ-DT-WVE" firstAttribute="top" secondItem="H2Y-dG-6NI" secondAttribute="bottom" constant="20" id="JAu-bl-REh"/>
+                            <constraint firstItem="H2Y-dG-6NI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="69" id="V66-OD-ogH"/>
                             <constraint firstItem="H2Y-dG-6NI" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="eSE-DF-2Ee"/>
                             <constraint firstItem="tiQ-DT-WVE" firstAttribute="centerX" secondItem="H2Y-dG-6NI" secondAttribute="centerX" id="eUo-MP-r1t"/>
-                            <constraint firstItem="oQ6-9v-ZN0" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="hlH-Nx-XvG"/>
+                            <constraint firstItem="oQ6-9v-ZN0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hFL-L2-TG5"/>
+                            <constraint firstItem="oQ6-9v-ZN0" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="suk-gU-qqJ"/>
+                            <constraint firstItem="oQ6-9v-ZN0" firstAttribute="top" secondItem="tiQ-DT-WVE" secondAttribute="bottom" constant="40" id="uZd-mq-VO1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="signInButton" destination="Ico-5E-Mfx" id="mG4-cy-fCg"/>
+                        <segue destination="Loq-4H-3RE" kind="show" identifier="goToFeed" id="QBo-41-eKO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="33.733133433283363"/>
         </scene>
-        <!--View Controller-->
+        <!--NewAccVC-->
         <scene sceneID="BjK-DC-Qdx">
             <objects>
-                <viewController id="8Gc-sz-RnG" sceneMemberID="viewController">
+                <viewController id="8Gc-sz-RnG" userLabel="NewAccVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CAH-1S-4wy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -164,20 +151,41 @@
             </objects>
             <point key="canvasLocation" x="869.60000000000002" y="38.23088455772114"/>
         </scene>
-        <!--View Controller-->
+        <!--MainVC-->
         <scene sceneID="jw1-hL-6FE">
             <objects>
-                <viewController id="Loq-4H-3RE" sceneMemberID="viewController">
+                <viewController id="Loq-4H-3RE" userLabel="MainVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="peh-9t-c1b">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PzU-kH-iar">
+                                <rect key="frame" x="103" y="40" width="140" height="149"/>
+                                <state key="normal" title="Sign Out">
+                                    <color key="titleColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="signOutBtn:" destination="O5n-O7-N1M" eventType="touchUpInside" id="N78-f5-QXs"/>
+                                    <action selector="signOutBtn:" destination="O5n-O7-N1M" eventType="touchDown" id="U5w-R4-RX7"/>
+                                    <action selector="signOutButton:" destination="O5n-O7-N1M" eventType="touchDown" id="O94-UL-FZB"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PzU-kH-iar" firstAttribute="top" secondItem="QIF-Cc-T6r" secondAttribute="top" constant="20" id="cLk-zR-aD9"/>
+                            <constraint firstItem="PzU-kH-iar" firstAttribute="centerX" secondItem="QIF-Cc-T6r" secondAttribute="centerX" id="qUR-Rp-7PJ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="QIF-Cc-T6r"/>
                     </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="goToLogin" id="xTK-d9-5DK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="beJ-dO-eCI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="O5n-O7-N1M" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="436" y="755"/>
+            <point key="canvasLocation" x="-828" y="762.36881559220399"/>
         </scene>
     </scenes>
     <resources>
