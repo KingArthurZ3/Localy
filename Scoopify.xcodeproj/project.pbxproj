@@ -18,6 +18,7 @@
 		8E51E2F61FA0499400447D36 /* ScoopifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E51E2F51FA0499400447D36 /* ScoopifyTests.swift */; };
 		8E51E3011FA0499400447D36 /* ScoopifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E51E3001FA0499400447D36 /* ScoopifyUITests.swift */; };
 		8E51E30F1FA04A7200447D36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E51E30E1FA04A7200447D36 /* GoogleService-Info.plist */; };
+		8EFF73F71FA2C83E001A2F2E /* MainFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF73F61FA2C83E001A2F2E /* MainFeedVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		8E51E3001FA0499400447D36 /* ScoopifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoopifyUITests.swift; sourceTree = "<group>"; };
 		8E51E3021FA0499400447D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E51E30E1FA04A7200447D36 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8EFF73F61FA2C83E001A2F2E /* MainFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFeedVC.swift; sourceTree = "<group>"; };
 		99F73484C813488F2AE791D6 /* Pods-Scoopify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scoopify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scoopify/Pods-Scoopify.debug.xcconfig"; sourceTree = "<group>"; };
 		9B4B7B0D25C651F86C4D4F8C /* Pods_ScoopifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScoopifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5ADC9D39DE68826F18C3655 /* Pods-ScoopifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScoopifyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScoopifyTests/Pods-ScoopifyTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				8E51E2E91FA0499400447D36 /* LaunchScreen.storyboard */,
 				8E51E2EC1FA0499400447D36 /* Info.plist */,
 				8E51E30E1FA04A7200447D36 /* GoogleService-Info.plist */,
+				8EFF73F61FA2C83E001A2F2E /* MainFeedVC.swift */,
 			);
 			path = Scoopify;
 			sourceTree = "<group>";
@@ -452,6 +455,7 @@
 			files = (
 				8E51E2E31FA0499400447D36 /* ViewController.swift in Sources */,
 				8E51E2E11FA0499400447D36 /* AppDelegate.swift in Sources */,
+				8EFF73F71FA2C83E001A2F2E /* MainFeedVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -151,11 +151,11 @@
             </objects>
             <point key="canvasLocation" x="869.60000000000002" y="38.23088455772114"/>
         </scene>
-        <!--MainVC-->
+        <!--MainFeedVC-->
         <scene sceneID="jw1-hL-6FE">
             <objects>
-                <viewController id="Loq-4H-3RE" userLabel="MainVC" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="peh-9t-c1b">
+                <viewController id="Loq-4H-3RE" userLabel="MainFeedVC" customClass="MainFeedVC" customModule="Scoopify" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="peh-9t-c1b" customClass="MainVC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -167,6 +167,7 @@
                                 <connections>
                                     <action selector="signOutBtn:" destination="O5n-O7-N1M" eventType="touchUpInside" id="N78-f5-QXs"/>
                                     <action selector="signOutBtn:" destination="O5n-O7-N1M" eventType="touchDown" id="U5w-R4-RX7"/>
+                                    <action selector="signOutBtnPressed:" destination="Loq-4H-3RE" eventType="touchDown" id="u6E-vK-DWI"/>
                                     <action selector="signOutButton:" destination="O5n-O7-N1M" eventType="touchDown" id="O94-UL-FZB"/>
                                 </connections>
                             </button>

@@ -24,25 +24,6 @@ class ViewController: UIViewController, GIDSignInUIDelegate{
         }
     }
     
-    @IBAction func signOutButton(_ sender: Any) {
-        signOut()
-    }
-    
-    
-    
-    func signOut(){
-        if Auth.auth().currentUser != nil{
-            //there is user signed in
-            do{
-                try Auth.auth().signOut()
-                self.performSegue(withIdentifier: "goToLogin", sender: self)
-            } catch let signOutError as NSError {
-                print("Error signing out: %@", signOutError)
-            }
-         
-        }
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
