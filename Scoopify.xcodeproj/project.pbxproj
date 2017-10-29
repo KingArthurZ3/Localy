@@ -18,6 +18,10 @@
 		8E51E2F61FA0499400447D36 /* ScoopifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E51E2F51FA0499400447D36 /* ScoopifyTests.swift */; };
 		8E51E3011FA0499400447D36 /* ScoopifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E51E3001FA0499400447D36 /* ScoopifyUITests.swift */; };
 		8E51E30F1FA04A7200447D36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E51E30E1FA04A7200447D36 /* GoogleService-Info.plist */; };
+		8E63AD741FA51BA800BDB3C8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63AD721FA51BA800BDB3C8 /* SWRevealViewController.m */; };
+		8E63AD761FA51F4800BDB3C8 /* ShopFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63AD751FA51F4800BDB3C8 /* ShopFeedVC.swift */; };
+		8E63AD781FA52A7300BDB3C8 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63AD771FA52A7300BDB3C8 /* SettingsVC.swift */; };
+		8E63AD7E1FA53B1200BDB3C8 /* NavTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63AD7D1FA53B1200BDB3C8 /* NavTableVC.swift */; };
 		8EFF73F71FA2C83E001A2F2E /* MainFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF73F61FA2C83E001A2F2E /* MainFeedVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +59,12 @@
 		8E51E3001FA0499400447D36 /* ScoopifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoopifyUITests.swift; sourceTree = "<group>"; };
 		8E51E3021FA0499400447D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E51E30E1FA04A7200447D36 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8E63AD711FA51BA700BDB3C8 /* Scoopify-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scoopify-Bridging-Header.h"; sourceTree = "<group>"; };
+		8E63AD721FA51BA800BDB3C8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		8E63AD731FA51BA800BDB3C8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		8E63AD751FA51F4800BDB3C8 /* ShopFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopFeedVC.swift; sourceTree = "<group>"; };
+		8E63AD771FA52A7300BDB3C8 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		8E63AD7D1FA53B1200BDB3C8 /* NavTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavTableVC.swift; sourceTree = "<group>"; };
 		8EFF73F61FA2C83E001A2F2E /* MainFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFeedVC.swift; sourceTree = "<group>"; };
 		99F73484C813488F2AE791D6 /* Pods-Scoopify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scoopify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scoopify/Pods-Scoopify.debug.xcconfig"; sourceTree = "<group>"; };
 		9B4B7B0D25C651F86C4D4F8C /* Pods_ScoopifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScoopifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,12 +140,18 @@
 			children = (
 				8E51E2E01FA0499400447D36 /* AppDelegate.swift */,
 				8E51E2E21FA0499400447D36 /* ViewController.swift */,
+				8EFF73F61FA2C83E001A2F2E /* MainFeedVC.swift */,
+				8E63AD751FA51F4800BDB3C8 /* ShopFeedVC.swift */,
+				8E63AD771FA52A7300BDB3C8 /* SettingsVC.swift */,
+				8E63AD7D1FA53B1200BDB3C8 /* NavTableVC.swift */,
 				8E51E2E41FA0499400447D36 /* Main.storyboard */,
+				8E63AD731FA51BA800BDB3C8 /* SWRevealViewController.h */,
+				8E63AD721FA51BA800BDB3C8 /* SWRevealViewController.m */,
 				8E51E2E71FA0499400447D36 /* Assets.xcassets */,
 				8E51E2E91FA0499400447D36 /* LaunchScreen.storyboard */,
 				8E51E2EC1FA0499400447D36 /* Info.plist */,
 				8E51E30E1FA04A7200447D36 /* GoogleService-Info.plist */,
-				8EFF73F61FA2C83E001A2F2E /* MainFeedVC.swift */,
+				8E63AD711FA51BA700BDB3C8 /* Scoopify-Bridging-Header.h */,
 			);
 			path = Scoopify;
 			sourceTree = "<group>";
@@ -248,6 +264,7 @@
 				TargetAttributes = {
 					8E51E2DC1FA0499400447D36 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					8E51E2F01FA0499400447D36 = {
@@ -455,7 +472,11 @@
 			files = (
 				8E51E2E31FA0499400447D36 /* ViewController.swift in Sources */,
 				8E51E2E11FA0499400447D36 /* AppDelegate.swift in Sources */,
+				8E63AD761FA51F4800BDB3C8 /* ShopFeedVC.swift in Sources */,
 				8EFF73F71FA2C83E001A2F2E /* MainFeedVC.swift in Sources */,
+				8E63AD741FA51BA800BDB3C8 /* SWRevealViewController.m in Sources */,
+				8E63AD7E1FA53B1200BDB3C8 /* NavTableVC.swift in Sources */,
+				8E63AD781FA52A7300BDB3C8 /* SettingsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,12 +643,15 @@
 			baseConfigurationReference = 99F73484C813488F2AE791D6 /* Pods-Scoopify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J9G5UX4JHG;
 				INFOPLIST_FILE = Scoopify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Arthur.K.Zhang.Scoopify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Scoopify/Scoopify-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -638,12 +662,14 @@
 			baseConfigurationReference = E10D242EEB7E5D4E23A8EB59 /* Pods-Scoopify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J9G5UX4JHG;
 				INFOPLIST_FILE = Scoopify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Arthur.K.Zhang.Scoopify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Scoopify/Scoopify-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

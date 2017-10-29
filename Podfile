@@ -11,6 +11,7 @@ target 'Scoopify' do
     pod 'Firebase/Auth'
     pod 'GoogleSignIn'
     pod 'Google'
+    pod 'Firebase/Storage'
 
   target 'ScoopifyTests' do
     inherit! :search_paths
